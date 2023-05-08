@@ -21,9 +21,9 @@ public class Start {
 	        EscribirComanda escritor = new EscribirComanda("C:\\Users\\pdmm2\\OneDrive\\Documentos\\Comandas.txt");
 	        try {
 	            escritor.escribirComandas(comandas);
-	            System.out.println("Comandas escritas en el archivo exitosamente.");
+	            System.out.println("Las comandas se escribieron con exito");
 	        } catch (IOException e) {
-	            System.err.println("Error al escribir las comandas en el archivo: " + e.getMessage());
+	           System.out.println("Error no se puede escribir");;
 	        }
 	    }
 
